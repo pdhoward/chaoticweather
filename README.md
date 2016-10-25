@@ -1,9 +1,6 @@
 # chaoticbot
 
-.. image:: https://errbot.readthedocs.org/en/latest/_static/errbot.png
-   :target: http://errbot.io
-
-|
+![Image of error bot]  (https://errbot.readthedocs.org/en/latest/_static/errbot.png)
 
 .. image:: https://img.shields.io/travis/errbotio/errbot/master.svg
    :target: https://travis-ci.org/errbotio/errbot/
