@@ -1,19 +1,10 @@
-declared-services:
-  conversation-service:
-    label: conversation
-    plan: free
-  weatherinsights-service:
-    label: weatherinsights
-    plan: Free-v2
-  cloudantNoSQLDB-service:
-    label: cloudantNoSQLDB
-    plan: Shared
+
+---
 applications:
-- services:
-   - conversation-service
-   - weatherinsights-service
-   - cloudantNoSQLDB-service
-  name: chaoticweather
-  command: npm start
-  path: .
+- name: chaoticweather
   memory: 512M
+  instances: 1
+  host: chaoticbot2
+  domain: mybluemix.net
+  path: .
+  command: npm start
